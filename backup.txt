@@ -1,0 +1,12 @@
+#camera{  border; 2px dashed black;  width: 350px;  height: 300px;}
+
+<label>Webcam View - </label><div id="camera"></div><br><br><div id="result"></div><br><br>  <button onclick="take_snapshot();"class="btn btn-info">CaptureImage</button><br><br><button onclick="check();"class="btn btn-success">IdentifyImage</button><br><br>
+
+<p style="font-size: 22px;"> Object : <span id="result_object_name"></span></p> <p style="font-size: 22px;"> Accuracy : <span id="result_object_accuracy"></span></p>
+
+#result_object_name#result_object_accuracy{	color: yellow;}
+
+<p style="font-size: 22px;"> Object : <span id="result_object_name"></span></p> <p style="font-size: 22px;"> Accuracy : <span id="result_object_accuracy"></span></p>
+#result_object_name#result_object_accuracy{	color: yellow;}
+
+https://teachablemachine.withgoogle.com/models/bqzEbIbMw/
